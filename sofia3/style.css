@@ -1,0 +1,65 @@
+/* Cambiar el color de fondo */
+iframe[src*="spotify"] {
+    background-color: #f7f7f7;
+  }
+  
+  /* Cambiar el color de los botones */
+  iframe[src*="spotify"] .spoticon-play,
+  iframe[src*="spotify"] .spoticon-pause,
+  iframe[src*="spotify"] .spoticon-next,
+  iframe[src*="spotify"] .spoticon-previous,
+  iframe[src*="spotify"] .spoticon-shuffle-16,
+  iframe[src*="spotify"] .spoticon-volume-16 {
+    color: #000;
+  }
+  
+  /* Cambiar el color de fondo del botón "play" */
+  iframe[src*="spotify"] .spoticon-play {
+    background-color: #1db954;
+  }
+  
+  /* Cambiar el color de fondo del botón "pause" */
+  iframe[src*="spotify"] .spoticon-pause {
+    background-color: #dcdcdc;
+  }
+  
+  /* Cambiar el color de fondo del botón "siguiente" */
+  iframe[src*="spotify"] .spoticon-next {
+    background-color: #dcdcdc;
+  }
+  
+  /* Cambiar el color de fondo del botón "anterior" */
+  iframe[src*="spotify"] .spoticon-previous {
+    background-color: #dcdcdc;
+  }
+  
+  /* Cambiar el color de fondo del botón "aleatorio" */
+  iframe[src*="spotify"] .spoticon-shuffle-16 {
+    background-color: #dcdcdc;
+  }
+  
+  /* Cambiar el color de fondo del botón de volumen */
+  iframe[src*="spotify"] .spoticon-volume-16 {
+    background-color: #dcdcdc;
+  }
+  
+  /* Ocultar la barra de progreso */
+  iframe[src*="spotify"] .progress-bar {
+    display: none;
+  }
+
+  .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+   .text {
+     font-size: 70px;
+   }
